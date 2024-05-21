@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+   
+    <title>mojahid</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+       
+        <i class="fa-solid fa-flask"></i>
+        <h4>Mojahid</h4>
+      
+     
+
+      <ul class="nav-items">
+        <li class="nav-item">
+          <a href="#home">home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about">about</a>
+        </li>
+        <li class="nav-item">
+          <a href="#search-item">search-item</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#contact">contact</a>
+        </li>
+      </ul>
+      
+   
+      </div>
+      <i id="moj-minu" class="fa-solid fa-bars"></i>
+    </nav>
+
+    <section id="home">
+      <div class="header-home">
+        <div class="header-contaniar">
+          <h1>
+            <span
+              >Yazan for scientific and laboratory <br />
+              supplies establishment</span
+            >
+          </h1>
+          <p class="ok"><span>مؤسسة يزن للتجهيزات العلمية</span></p>
+          <p>
+            Our business is trading in chemicals, oils, candles, and raw
+            materials for the cosmetics industry
+          </p>
+         
+        </div>
+    <div class="home-img">
+        <img src="imeges/ميكروسكوب.jpeg" width="500px" height="500px" alt="">
+    </div>
+      </div>
+    </section>
+    <section class="vvvedio">
+    <div class="container ">
+      <div class="shof-contanier">
+     
+     
+      <div class="shof">
+     
+      
+      </div>
+       </div>
+      </div>
+    </section>
+  
+ 
+   
+
+    <section id="about">
+      <div class="container">
+        <h2>about <span class="text-primery">me</span></h2>
+        <div class="about-content">
+          <div class="col-1">
+            <h3>
+              i am
+              <span class="text-primery">yazan for scientific and </span
+              >laboratory supplies establishment
+            </h3>
+            <p>
+              a supplier and export of laboratory equipment,chemicals and raw
+              materials located in amman - jordan since 1995
+            </p>
+          </div>
+          <div class="col-2">
+            <p><b>age:</b>28</p>
+            <p><b>email:</b>darwishmojahid@gmail.com</p>
+            <p><b>adress:</b> amman - jordan</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="search-item">
+      <div class="kenzee">
+        <div id="item-container">
+          <input
+            type="search"
+           id="search-input"
+            placeholder="search item hear"
+          />
+          <button id="search">search</button>
+        </div>
+        <div id="buttons">
+          <button class="button-value" onclick="filterProduct(`all`)">
+            All
+          </button>
+          <button class="button-value" onclick="filterProduct(`chemicals`)">
+            Chemicals
+          </button>
+          <button class="button-value" onclick="filterProduct(`Vitamins`)">
+            Vitamins
+          </button>
+          <button class="button-value" onclick="filterProduct(`Solvent`)">
+            Solvent
+          </button>
+          <button class="button-value" onclick="filterProduct(`Silicones`)">
+            Silicones
+          </button>
+          <button class="button-value" onclick="filterProduct(`Oils`)">
+            Oils
+          </button>
+          <button class="button-value" onclick="filterProduct(`Wax`)">
+            Wax
+          </button>
+        </div>
+      </div>
+      <div id="products"></div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Send inquiry</h2>
+       <div class="container-item"></div>
+     <div class="row">
+ 
+    <img src="imeges/office.jpg" alt="">
+        <form
+          action="https://formsubmit.co/darwishmojahid@gmail.com"
+          method="POST"
+        >
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="name"
+            required
+          />
+          <input type="email" name="email" id="email" placeholder="email" req />
+          <textarea
+            name="messege"
+            id="messege"
+            cols="30"
+            rows="10"
+            placeholder="messege"
+            required
+          ></textarea>
+          <button type="submit" class="btn-primery">submit</button>
+        </form>
+  
+   
+    </div>
+</div>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
